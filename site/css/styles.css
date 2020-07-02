@@ -223,7 +223,9 @@ a{
 }
 
 .att{
+	display: flex;
 	border:none;
 	outline:none;
-	border-radius: 15px;
+	border-radius: 20px;
+
 }
