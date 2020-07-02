@@ -22,46 +22,53 @@ body{
 .child1{
 	width: 70px;
 	height: 70px;
-	background: rgb(0,0,0,0);
-	border-radius: 15px;
-
-	box-shadow:inset 0 0 8px #000000;
-	padding-top: 15px;
-	padding-left: 25px;
-
-}
-
-
-.one{
-	font-family: Andale Mono, monospace;
 	display: flex;
+	font-family: Andale Mono, monospace;
+	padding: 20px 27px;
+	size: 30px;
+	border:none;
+	outline:none;
 	color: #839c86;
+	background-color: rgb(34, 34, 34);
+	border-radius: 15px;
+	cursor: pointer;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0,0.8),
+     			-1px -1px 8px   rgb(207, 207, 207,0.2); 
+	}
 
-
-	
-	
-}
-
-.two{
-	font-family: Andale Mono, monospace;
-	display: flex;
-	color: #00FF66;
-	padding-top: 15px;
-	padding-left: 25px;
-	text-shadow: 0px 0px 16px #00FF66;
-
+.child1:active{	
+	box-shadow: 
+    inset 4px 4px 8px rgba(0, 0, 0,0.8),
+    inset -1px -1px 8px rgb(207, 207, 207,0.2);
+	color: #9400D3;
+    text-shadow: 0px 0px 16px #9400D3;
 }
 
 
 .child2{
 	width: 70px;
 	height: 70px;
-	background: rgb(34, 34, 34,0);
+	display: flex;
+	font-family: Andale Mono, monospace;
+	padding: 20px 27px;
+	size: 30px;
+	border:none;
+	outline:none;
+	color: #839c86;
+	background-color: rgb(34, 34, 34);
 	border-radius: 15px;
 	box-shadow: 
-    inset 4px 4px 8px rgba(0, 0, 0,0.8),
-    inset -1px -1px 8px   rgb(207, 207, 207,0.2);
+     4px 4px 8px rgba(0, 0, 0,0.8),
+     -1px -1px 8px   rgb(207, 207, 207,0.2); 
 	}
+
+.child2:active{	
+	box-shadow: 
+    inset 4px 4px 8px rgba(0, 0, 0,0.8),
+    inset -1px -1px 8px rgb(207, 207, 207,0.2);
+	color: #4B0082;
+    text-shadow: 0px 0px 16px #4B0082;
+}
 
 .child3{
 	width: 70px;
@@ -69,7 +76,7 @@ body{
 	display: flex;
 	font-family: Andale Mono, monospace;
 	padding: 20px 27px;
-	text-align: center;
+	size: 30px;
 	border:none;
 	outline:none;
 	color: #839c86;
@@ -81,39 +88,107 @@ body{
 	}
 
 
-.child3:active{
-	
-	color: #839c86;
+.child3:active{	
 	box-shadow: 
     inset 4px 4px 8px rgba(0, 0, 0,0.8),
     inset -1px -1px 8px rgb(207, 207, 207,0.2);
-	color: #00FF66;
-    text-shadow: 0px 0px 16px #00FF66;
-
+	color: #0000FF;
+    text-shadow: 0px 0px 16px #0000FF;
 }
 
 
 .child4{
 	width: 70px;
 	height: 70px;
-	background: rgb(255,0,0);
+	display: flex;
+	font-family: Andale Mono, monospace;
+	padding: 20px 27px;
+	size: 30px;
+	border:none;
+	outline:none;
+	color: #839c86;
+	background-color: rgb(34, 34, 34);
 	border-radius: 15px;
-
-	box-shadow: 0 2px 30px #000;
+	box-shadow: 
+     4px 4px 8px rgba(0, 0, 0,0.8),
+     -1px -1px 8px   rgb(207, 207, 207,0.2); 
+	}
+.child4:active{	
+	box-shadow: 
+    inset 4px 4px 8px rgba(0, 0, 0,0.8),
+    inset -1px -1px 8px rgb(207, 207, 207,0.2);
+	color: #00FF00;
+    text-shadow: 0px 0px 16px #00FF00;
 }
 
 .child5{
 	width: 70px;
 	height: 70px;
-	background: rgb(0,255,0);
+	display: flex;
+	font-family: Andale Mono, monospace;
+	padding: 20px 27px;
+	size: 30px;
+	border:none;
+	outline:none;
+	color: #839c86;
+	background-color: rgb(34, 34, 34);
 	border-radius: 15px;
-	box-shadow: 0 2px 30px #000;
+	box-shadow: 
+     4px 4px 8px rgba(0, 0, 0,0.8),
+     -1px -1px 8px   rgb(207, 207, 207,0.2); 
 	}
-
+.child5:active{	
+	box-shadow: 
+    inset 4px 4px 8px rgba(0, 0, 0,0.8),
+    inset -1px -1px 8px rgb(207, 207, 207,0.2);
+	color: #FFFF00;
+    text-shadow: 0px 0px 16px #FFFF00;
+}
 .child6{
 	width: 70px;
 	height: 70px;
-	background: rgb(0,0,255);
+	display: flex;
+	font-family: Andale Mono, monospace;
+	padding: 20px 27px;
+	size: 30px;
+	border:none;
+	outline:none;
+	color: #839c86;
+	background-color: rgb(34, 34, 34);
 	border-radius: 15px;
-	box-shadow: 0 2px 30px #000;
+	box-shadow: 
+     4px 4px 8px rgba(0, 0, 0,0.8),
+     -1px -1px 8px   rgb(207, 207, 207,0.2); 
+	}
+	.child6:active{	
+	box-shadow: 
+    inset 4px 4px 8px rgba(0, 0, 0,0.8),
+    inset -1px -1px 8px rgb(207, 207, 207,0.2);
+	color: 	#FF7F00;
+    text-shadow: 0px 0px 16px 	#FF7F00;
+}
+
+
+.child7{
+	width: 70px;
+	height: 70px;
+	display: flex;
+	font-family: Andale Mono, monospace;
+	padding: 20px 27px;
+	size: 30px;
+	border:none;
+	outline:none;
+	color: #839c86;
+	background-color: rgb(34, 34, 34);
+	border-radius: 15px;
+	box-shadow: 
+     4px 4px 8px rgba(0, 0, 0,0.8),
+     -1px -1px 8px   rgb(207, 207, 207,0.2); 
+	}
+	.child7:active{	
+	box-shadow: 
+    inset 4px 4px 8px rgba(0, 0, 0,0.8),
+    inset -1px -1px 8px rgb(207, 207, 207,0.2);
+	color: 		#FF0000;
+    text-shadow: 0px 0px 16px 		#FF0000;
 }
